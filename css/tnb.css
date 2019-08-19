@@ -1,3 +1,20 @@
+.img-left section>p {
+        float: left;
+        width: 40%;
+}
+.img-left section>ul {
+        width: 55%;
+        float: right;
+}
+.img-right section>p {
+        float: right;
+        width: 40%;
+}
+.img-right section>ul {
+        width: 55%;
+        float: left;
+}
+
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
     text-transform: none;
     color: #0684dd;

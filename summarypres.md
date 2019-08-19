@@ -7,25 +7,57 @@ Brown.TerryN@epa.gov
 ## Themes
 
  - Processing / management of large datasets from 
-   sensors
+   sensors and simulations
  - Visualization of complex datasets  
  - Getting from data to understanding for managers
-   
 
 
 
 # Drifters
+<!-- .slide: data-state="img-left" -->
+
+![Drifter internals](./img/20180524_114738c.jpg) <!-- .element: height="500" -->
+
+ - Map currents, conductivity, and temperature
+ - Low cost, deploy en masse
+
+
+## Drifters - components
+
+![Drifter internals](./img/drifterside.png) <!-- .element: width="80%" -->
+
+
+## Drifters - components
+
+![Drifter internals](./img/drifterotherside.png) <!-- .element: width="80%" -->
 
 
 ## Low cost
 
  - unit cost < $250
+   - cf. a Cyanoscope for $XXX
+ - Affordable for smaller communities 
  - Outreach opportunity for schools etc.
- - Affordable for small communities 
+   - Have students assemble units
+   - Deploy units from kayaks etc.
+
+
+## Application
+<!-- .slide: data-state="img-right" -->
+
+![Dropping drifter overboard](./img/IMG_20180524_124736638crop.jpg)
+
+ - Shallow environments, rivers
+ - Detect tributary specific inputs
+   - warm water from *that* outfall
+   - road salt from *that* stream
+ - Local site specificity gives managers actionable
+   information
 
 
 ## Visualization
 
+ - Web based
  - Observe complex patterns
  - Select representative parts of data
  - View relationships between drifters
@@ -34,19 +66,16 @@ Brown.TerryN@epa.gov
 ## Internet of things
 
  - AES encrypted transmission
- - stream network monitoring
+ - Units relay messages to increase range
+ - Stream network monitoring
 
-
-## Application
-
- - Shallow environments, rivers
- - Detect tributary specific inputs
-   - warm water from **that** outfall
-   - road salt from **that** stream
+![Collecting data from stream network](./img/streamnw.svg) <!-- .element width="80%" -->
 
 
 
 # SNNM
+
+Simple Nearshore Nutrient Model
 
 
 ## Simple == Open
@@ -58,6 +87,9 @@ Brown.TerryN@epa.gov
 
 ## Visualization
 
+ - Web based
+ - Observe complex patterns
+
 
 
 # Glider
@@ -68,19 +100,47 @@ Brown.TerryN@epa.gov
 
 ## Visualization
 
+ - Web based
+ - Observe complex patterns
+
+
+## Application
+
+ - Supplement satellite surface / shallow view
+ - Sampling for 40-100+ days a year
+
+
+
+# Data indexing / mining
+
+Turning 20 years of data into a 20 year data set.
+
 
 
 # Bromide OW
 
+Using off the shelf current data from NOAA to model
+flow between coal fired power stations and drinking
+water intakes in the Great Lakes.
 
-## Distributed
+Work for Office of Water, OW had already done the
+analysis for rivers and streams, but not the Great
+Lakes.
+
+
+## Agent based modeling
+
+ - Able to represent details of complex systems
+ - Captures emergent behavior / features
+ - Requires distributed computing approach
 
 
 ## Animation
 
 
-## Seasonal patterns
+## Seasonal patterns / Improved model
 
-
-## Improved model
-
+ - Seasonal patterns in nearshore currents influence
+   seasonal transfer rates
+ - Office of Water originally using q q  "people within 50 km of plant"
+ - Seasonal effects influence exposure pathways

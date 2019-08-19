@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="677.33331mm"
+   height="456.49442mm"
+   viewBox="0 0 677.33331 456.49442"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="drifterside.svg"
+   inkscape:export-filename="U:\repo\summarypres\img\drifterside.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1124.2857"
+     inkscape:cy="662.66657"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1042"
+     inkscape:window-y="262"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(168.57738,-7.5206494)">
+    <g
+       id="g1136">
+      <image
+         sodipodi:absref="U:\repo\summarypres\img\20190819_141956c.jpg"
+         xlink:href="20190819_141956c.jpg"
+         width="677.33331"
+         height="456.49442"
+         preserveAspectRatio="none"
+         id="image1096"
+         x="-168.57738"
+         y="7.5206494" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.46964455px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33674112"
+         x="-136.98944"
+         y="444.33578"
+         id="text1105"><tspan
+           sodipodi:role="line"
+           id="tspan1103"
+           x="-136.98944"
+           y="444.33578"
+           style="stroke-width:0.33674112">Conductivity / temperature probe</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.46964455px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33674112"
+         x="148.76056"
+         y="433.75241"
+         id="text1109"><tspan
+           sodipodi:role="line"
+           id="tspan1107"
+           x="148.76056"
+           y="433.75241"
+           style="stroke-width:0.33674112">Antenna</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.46964455px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33674112"
+         x="217.55222"
+         y="282.56195"
+         id="text1113"><tspan
+           sodipodi:role="line"
+           id="tspan1111"
+           x="217.55222"
+           y="282.56195"
+           style="stroke-width:0.33674112">Battery</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:13.46964455px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33674112"
+         x="49.730789"
+         y="64.847656"
+         id="text1117"><tspan
+           sodipodi:role="line"
+           id="tspan1115"
+           x="49.730789"
+           y="64.847656"
+           style="stroke-width:0.33674112">Conductivity</tspan><tspan
+           id="tspan1119"
+           sodipodi:role="line"
+           x="49.730789"
+           y="81.684715"
+           style="stroke-width:0.33674112">controller</tspan></text>
+      <text
+         id="text1101"
+         y="52.752419"
+         x="182.7784"
+         style="font-style:normal;font-weight:normal;font-size:13.46964455px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33674112"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.33674112"
+           y="52.752419"
+           x="182.7784"
+           id="tspan1099"
+           sodipodi:role="line">PyBoard v1.1</tspan><tspan
+           id="tspan1121"
+           style="stroke-width:0.33674112"
+           y="69.589478"
+           x="182.7784"
+           sodipodi:role="line">(MicroPython)</tspan></text>
+    </g>
+  </g>
+</svg>
