@@ -222,6 +222,7 @@ Complexity more easily represented in ABMs
  - Office of Water originally using
    <br/>"people within 50 km of plant"
  - Seasonal effects influence exposure pathways
+ - A basis for further work in the Great Lakes
  
 
 
