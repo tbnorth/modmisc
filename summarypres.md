@@ -57,14 +57,14 @@ Turning 20 years of data into a 20 year data set.
 
 
 
-# Bromide OW
+# Modeling transfer from outfalls to intakes in the Great Lakes
 
 Using off the shelf current data from NOAA to
 model flow between coal fired power stations and
 drinking water intakes in the Great Lakes.
 
 Work for Office of Water, currently rule making
-for Br- release.
+for Br<sup>- release.
 
 
 ## Nation wide, minus the Great Lakes
@@ -77,11 +77,48 @@ for Br- release.
    basin.   
 
 
+## Caveats
+
+ - Not predicting intake concentration, but
+   relative exposure, seasonality etc.
+ - NOAA hydrodynamic data *archive* is a
+   generation behind hydrodynamic model wise,
+   switching currently to more suitable model.
+   - The immediate open access to this long term
+   archive makes this work viable.
+
+
+## Nearshore flow
+
+ - There is a nearshore flow or "stream" in the
+   Great Lakes that retains inputs, mixing with the
+   full lake volume is delayed.
+
+
+## Nearshore flow <!-- .slide: data-state="hide-head" -->
+
+![Ontario](./img/LakeOntarioArial.png)
+
+
+## Nearshore flow <!-- .slide: data-state="hide-head" -->
+
+August 11 2012
+![Superior](./img/t1.12224.USA3.143.250m.jpg)
+
+
 ## Previously, cell based modeling
 
  - Track fate of P entering the lakes, precursor
    to algal blooms.
  - Interactive web based visualization.   
+
+
+## Previous work
+
+<video height="500" controls>
+    <source data-src="./vid/0001-0609.mkv"
+    type="video/mp4" />
+</video>
 
 
 ## Agent based modeling
@@ -135,14 +172,37 @@ Complexity more easily represented in ABMs
  - Large memory node, 1.5 Tb RAM
  - 4 GPU nodes
  - 1.4 Pb, or 1,400 Tb drive
+ - EMVL groups provides support, but quite open to
+   direct use
 
 
 ## Model structure, NOAA data
 
  - Run for 12 years, 2004-2015, analyze the last
    ten.
- - Br- very persistent, particles given a two year
- life-span.
+ - Br<sup>-</sup> very persistent, particles given a two year
+   life-span.
+
+
+## Intake
+
+![Intake](./img/partintake.png) <!-- .element: style="filter: invert(100%)" width="600" -->
+
+
+## NOAA cells <!-- .slide: data-state="hide-head" -->
+
+<video height="600" controls>
+    <source data-src="./vid/noaacells.mp4"
+    type="video/mp4" />
+</video>
+
+
+## LM animation <!-- .slide: data-state="hide-head" -->
+
+<video height="700" controls>
+    <source data-src="./vid/outputMap.mp4"
+    type="video/mp4" />
+</video>
 
 
 ## Seasonal variations
@@ -153,9 +213,6 @@ Complexity more easily represented in ABMs
 ## Seasonal variations
 
 ![all sites](img/month_mean2.png) <!-- .element: style="filter: invert(100%)" -->
-
-
-## Animation
 
 
 ## Seasonal patterns / Improved model
@@ -176,6 +233,8 @@ Complexity more easily represented in ABMs
 
  - Map currents, conductivity, and temperature
  - Low cost, deploy en masse
+ - Validate hydrodynamic models
+ - Measure at scales model data is unavailable
 
 
 ## Drifters - components
@@ -209,6 +268,16 @@ Complexity more easily represented in ABMs
    - road salt from *that* stream
  - Local site specificity gives managers actionable
    information
+
+
+## Software components
+
+ - Software on the drifters, in MicroPython, which
+   collects and transmits data
+ - Software on the field laptop, tracking drifters
+ - Post-processing and visualisation software
+ - "DrifterOS" - software to download data and
+   update software wirelessly
 
 
 ## Visualization
