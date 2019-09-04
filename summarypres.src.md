@@ -1,4 +1,4 @@
-{% if not OW_ONLY %}
+{% if not OW_ONLY -%}
 # Data and sensor development
 
 Terry Brown, Post doc.
@@ -51,23 +51,26 @@ Simple Nearshore Nutrient Model
  - Sampling for 40-100+ days a year
 
 
-
 # Data indexing / mining
 
 Turning 20 years of data into a 20 year data set.
 
 
-
-{% endif %}{# OW_ONLY #}
-
+{% endif %}{# OW_ONLY -#}
 # Modeling transfer from outfalls to intakes in the Great Lakes
 
-Using off the shelf current data from NOAA to
-model flow between coal fired power stations and
-drinking water intakes in the Great Lakes.
+Brown.TerryN@epa.gov  
+Mid-continent Ecology Division  
+Watersheds and Water Resources Branch
+
+## OW concerned about Br<sup>-</sup> from powerstations
 
 Work for Office of Water, currently rule making
 for Br<sup>-</sup> release.
+
+Using off the shelf current data from NOAA and NRL to
+model flow between coal fired power stations and
+drinking water intakes in the Great Lakes.
 
 
 ## Nation wide, minus the Great Lakes
@@ -95,8 +98,13 @@ for Br<sup>-</sup> release.
 ## Nearshore flow
 
  - There is a nearshore flow or "stream" in the
-   Great Lakes that retains inputs, mixing with the
-   full lake volume is delayed.
+   Great Lakes that retains inputs.
+ - Mixing with the full lake volume is delayed.
+ - Contaminants entering the Great Lakes linger in
+   the shallower nearshore.
+   - Dilution is more limited.
+   - The nearshore is where people interact with
+     the lakes.
 
 
 ## Nearshore flow <!-- .slide: data-state="hide-head" -->
@@ -233,6 +241,7 @@ Complexity more easily represented in ABMs.
 
 
 
+{% if not OW_ONLY %}
 # Drifters
 <!-- .slide: data-state="img-left" -->
 
@@ -309,6 +318,7 @@ Complexity more easily represented in ABMs.
     <source data-src="./vid/0001-1262.mkv" type="video/mp4" />
 </video>
 
+{% endif %}
 <!--
 vim:tw=50
--->
+--->

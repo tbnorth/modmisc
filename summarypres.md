@@ -1,15 +1,18 @@
-
-
-
-
 # Modeling transfer from outfalls to intakes in the Great Lakes
 
-Using off the shelf current data from NOAA to
-model flow between coal fired power stations and
-drinking water intakes in the Great Lakes.
+Brown.TerryN@epa.gov  
+Mid-continent Ecology Division  
+Watersheds and Water Resources Branch
+
+
+## OW concerned about Br<sup>-</sup> from powerstations
 
 Work for Office of Water, currently rule making
 for Br<sup>-</sup> release.
+
+Using off the shelf current data from NOAA and NRL to
+model flow between coal fired power stations and
+drinking water intakes in the Great Lakes.
 
 
 ## Nation wide, minus the Great Lakes
@@ -37,8 +40,13 @@ for Br<sup>-</sup> release.
 ## Nearshore flow
 
  - There is a nearshore flow or "stream" in the
-   Great Lakes that retains inputs, mixing with the
-   full lake volume is delayed.
+   Great Lakes that retains inputs.
+ - Mixing with the full lake volume is delayed.
+ - Contaminants entering the Great Lakes linger in
+   the shallower nearshore.
+   - Dilution is more limited.
+   - The nearshore is where people interact with
+     the lakes.
 
 
 ## Nearshore flow <!-- .slide: data-state="hide-head" -->
@@ -173,86 +181,6 @@ Complexity more easily represented in ABMs.
  - A basis for further work in the Great Lakes.
  
 
-
-
-# Drifters
-<!-- .slide: data-state="img-left" -->
-
-![Drifter internals](./img/20180524_114738c.jpg) <!-- .element: height="500" -->
-
- - Map currents, conductivity, and temperature.
- - Low cost, deploy en masse.
- - Validate hydrodynamic models.
- - Measure at scales model data is unavailable.
-
-
-## Drifters - components
-
-![Drifter internals](./img/drifterside.png) <!-- .element: width="80%" -->
-
-
-## Drifters - components
-
-![Drifter internals](./img/drifterotherside.png) <!-- .element: width="80%" -->
-
-
-## Low cost
-
- - Unit cost < $250.
-   - cf. a Cyanoscope for $500+
- - Affordable for smaller communities.
- - Outreach opportunity for schools etc.
-   - Have students assemble units
-   - Deploy units from kayaks etc.
-
-
-## Application
-<!-- .slide: data-state="img-right" -->
-
-![Dropping drifter overboard](./img/IMG_20180524_124736638crop.jpg)
-
- - Shallow environments, rivers.
- - Detect tributary specific inputs.
-   - warm water from *that* outfall
-   - road salt from *that* stream
- - Local site specificity gives managers actionable
-   information.
-
-
-## Software components
-
- - Software on the drifters, in MicroPython, which
-   collects and transmits data.
- - Software on the field laptop, tracking
-   drifters.
- - Post-processing and visualisation software.
- - "DrifterOS" - software to download data and
-   update software wirelessly.
-
-
-## Internet of things
-
- - AES encrypted transmission.
- - Units relay messages to increase range.
- - Stream network monitoring.
-
-![Collecting data from stream network](./img/streamnw.svg) <!-- .element width="80%" -->
-
-
-## Visualization
-
- - Web based
- - Observe complex patterns
- - Select representative parts of data
- - View relationships between drifters
-
-
-## PP animation <!-- .slide: data-state="hide-head" -->
-
-<video height="700" controls>
-    <source data-src="./vid/0001-1262.mkv" type="video/mp4" />
-</video>
-
 <!--
 vim:tw=50
--->
+--->
