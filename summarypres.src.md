@@ -63,10 +63,14 @@ Brown.TerryN@epa.gov
 Mid-continent Ecology Division  
 Watersheds and Water Resources Branch
 
-## OW concerned about Br<sup>-</sup> from powerstations
+## OW concerned about bromide from power-stations
 
 Work for Office of Water, currently rule making
-for Br<sup>-</sup> release.
+for bromide release.
+
+Bromide - a constituent commonly found in steam
+electric plant effluent - is a trihalomethane
+precursor.
 
 Using off the shelf current data from NOAA and NRL to
 model flow between coal fired power stations and
@@ -194,7 +198,7 @@ Complexity more easily represented in ABMs.
 
  - Run for 12 years, 2004-2015, analyze the last
    ten.
- - Br<sup>-</sup> very persistent, particles given a two year
+ - Bromide very persistent, particles given a two year
    life-span.
 
 
