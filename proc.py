@@ -24,4 +24,4 @@ def space_reveal_slides(lines):
 lines = [i.rstrip('\r\n') for i in open(in_)]
 lines = space_reveal_slides(lines)
 lines = Template('\n'.join(lines))
-open(out, 'w', newline='').write(lines.render())
+open(out, 'w', newline='').write(lines.render(OW_ONLY=True))
