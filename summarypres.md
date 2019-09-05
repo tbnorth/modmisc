@@ -1,22 +1,20 @@
 # Modeling transfer from outfalls to intakes in the Great Lakes
 
+Terry Brown, Post doc.  
 Brown.TerryN@epa.gov  
 Mid-continent Ecology Division  
 Watersheds and Water Resources Branch
 
 
-## OW concerned about bromide from power-stations
+## OW working on bromide from power stations
 
-Work for Office of Water, currently rule making
-for bromide release.
-
-Bromide - a constituent commonly found in steam
-electric plant effluent - is a trihalomethane
-precursor.
-
-Using off the shelf current data from NOAA and NRL to
-model flow between coal fired power stations and
-drinking water intakes in the Great Lakes.
+ - Work for Office of Water, currently rule making
+   for bromide release from coal fired power plants.
+ - Bromide - commonly found in steam
+   electric plant effluent - is a trihalomethane
+   precursor.
+ - Chemicals in this family are thought to be
+   carcinogens.
 
 
 ## Nation wide, minus the Great Lakes
@@ -29,16 +27,17 @@ drinking water intakes in the Great Lakes.
    basin.
 
 
-## Caveats
+## Considerations
 
- - Not predicting intake concentration, but
+ - Our model is not predicting intake bromide concentration, but
    relative exposure, seasonality etc.
- - NOAA hydrodynamic data *archive* is a
-   generation behind hydrodynamic model wise,
-   they're currently switching to more suitable
-   model.
-   - The immediate open access to this long term
-     archive makes this work viable.
+ - We used hydrodynamic model output from NOAA,
+ who provide archived flow data for all five Great
+ Lakes for the past 15 years.  
+ - NOAA's currently
+ available data is a generation behind, model
+ wise, but its immediate availability made our
+ work possible in the time available.
 
 
 ## Nearshore flow
@@ -64,7 +63,7 @@ August 11 2012
 ![Superior](./img/t1.12224.USA3.143.250m.jpg)
 
 
-## Previously, cell based modeling
+## Previous grid based modeling
 
  - Track fate of P entering the lakes, precursor
    to algal blooms.
@@ -92,8 +91,7 @@ August 11 2012
 - Exist at a specific point in space.
 - Can have multiple static and varying attributes.
 - Can interact with surrounding agents (and
-  cells).
-  based on distance etc.
+  grid cells) based on distance etc.
 - Added and removed from the model over the
   model's run-time.
 
@@ -156,6 +154,8 @@ Complexity more easily represented in ABMs.
 
 ![Intake](./img/partintake.png) <!-- .element: style="filter: invert(100%)" width="600" -->
 
+9 billion modeled particle positions
+
 
 ## LM animation <!-- .slide: data-state="hide-head" -->
 
@@ -178,11 +178,11 @@ Complexity more easily represented in ABMs.
 ## Seasonal patterns / Improved model
 
  - Seasonal patterns in nearshore currents influence
-   seasonal transfer rates.
+   intake exposure levels.
  - Office of Water originally using
    <br/>"people within 50 km of plant".
- - Seasonal effects influence exposure pathways.
- - A basis for further work in the Great Lakes.
+ - Seasonal effects and temperature influence exposure pathways.
+ - OW sees this as a basis for further work in the Great Lakes.
  
 
 <!--
