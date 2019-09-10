@@ -1,62 +1,62 @@
-{% if not OW_ONLY -%}
-# Data and sensor development
+{% if not OW_ONLY %}
+# Data, modeling, visualization, and sensors <!-- .tags: pf -->
 
 Terry Brown, Post doc.
 Brown.TerryN@epa.gov
 
-
-## Themes
+## Themes <!-- .tags: pf -->
 
  - Processing / management of large datasets from 
    sensors and simulations
- - Visualization of complex datasets  
+ - Visualization of large, complex datasets  
  - Getting from data to understanding for managers
 
-
-
-# SNNM
+# SNNM <!-- .tags: pf -->
 
 Simple Nearshore Nutrient Model
 
+Modeling nutrient movement in the nearshore as a
+precursor to Harmful Algal Blooms (HABs).
 
-## Simple == Open
+## Simple == Open <!-- .tags: pf -->
 
  - Try to avoid calibration
+ - Some models have dozens of calibration
+   variables and minimal observations.
  - Prefer direct use of real world observations
  - Minimize complexity
 
 
-## Visualization
+## Visualization <!-- .tags: pf -->
 
- - Web based
- - Observe complex patterns
-
-
+ - Web based, *potentially* better for
+   collaboration.
+ - Complex patterns more easily observed.
 
 # Glider
 
-
 ## Data pipeline
-
 
 ## Visualization
 
- - Web based
- - Observe complex patterns
-
+ - Web based, *potentially* better for
+   collaboration.
+ - Complex patterns more easily observed.
 
 ## Application
 
  - Supplement satellite surface / shallow view
  - Sampling for 40-100+ days a year
 
-
-# Data indexing / mining
+# Data indexing / mining <!-- .tags: pf -->
 
 Turning 20 years of data into a 20 year data set.
 
+[Data inventory
+interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 
-{% endif %}{# OW_ONLY -#}
+{% endif %}{# not OW_ONLY #}
+{% if OW_ONLY %}
 # Modeling transfer from outfalls to intakes in the Great Lakes
 
 Terry Brown, Post doc.  
@@ -65,6 +65,10 @@ Mid-continent Ecology Division
 Watersheds and Water Resources Branch
 
 ## OW working on bromide from power stations
+<!-- .tags: pf -->
+{% else %}
+# OW working on bromide from power stations <!-- .tags: pf -->
+{% endif %}
 
  - Work for Office of Water, currently rule making
    for bromide release from coal fired power plants.
@@ -74,7 +78,6 @@ Watersheds and Water Resources Branch
  - Chemicals in this family are thought to be
    carcinogens.
 
-
 ## Nation wide, minus the Great Lakes
 
  - OW had already done the analysis for rivers and
@@ -83,7 +86,6 @@ Watersheds and Water Resources Branch
    Canadian, always a challenge data wise.
  - 30 million people live in the Great Lakes
    basin.
-
 
 ## Considerations
 
@@ -97,7 +99,6 @@ Watersheds and Water Resources Branch
  wise, but its immediate availability made our
  work possible in the time available.
 
-
 ## Nearshore flow
 
  - There is a nearshore flow or "stream" in the
@@ -109,24 +110,20 @@ Watersheds and Water Resources Branch
    - The nearshore is where people interact with
      the lakes.
 
-
 ## Nearshore flow <!-- .slide: data-state="hide-head" -->
 
 ![Ontario](./img/LakeOntarioArial.png)
-
 
 ## Nearshore flow <!-- .slide: data-state="hide-head" -->
 
 August 11 2012
 ![Superior](./img/t1.12224.USA3.143.250m.jpg)
 
-
 ## Previous grid based modeling
 
  - Track fate of P entering the lakes, precursor
    to algal blooms.
  - Interactive web based visualization.
-
 
 ## Previous work
 
@@ -135,14 +132,12 @@ August 11 2012
     type="video/mp4" />
 </video>
 
-
-## Agent based modeling
+## Agent based modeling <!-- .tags: pf -->
 
  - Able to represent details of complex systems.
  - Captures emergent behavior / features.
  - Works well with a distributed computing
    approach.
-
 
 ## Agents
 
@@ -153,11 +148,9 @@ August 11 2012
 - Added and removed from the model over the
   model's run-time.
 
-
 ## Agents as individuals
 
 ![fish](img/fish.png)
-
 
 ## Agent Based Models (ABMs) and complexity
 
@@ -170,7 +163,6 @@ August 11 2012
   strategies.
 
 Complexity more easily represented in ABMs.
-
 
 ## Agents for continuous phenomena
 
@@ -191,48 +183,47 @@ Complexity more easily represented in ABMs.
  - EMVL group provides support, but quite open to
    direct use.
 
-
-## Model structure, grid data
+## Model structure, grid data <!-- .tags: pf -->
 
  - Run for 12 years, 2004-2015, analyze the last
    ten.
  - Bromide very persistent, particles given a two year
    life-span.
 
-
 ## Grid cells <!-- .slide: data-state="hide-head" -->
-
+<!-- .tags: pf -->
 <video height="600" controls>
     <source data-src="./vid/noaacells.mp4"
     type="video/mp4" />
 </video>
 
-
 ## Intake
-
+<!-- .tags: pf -->
+ 
 ![Intake](./img/partintake.png) <!-- .element: style="filter: invert(100%)" width="600" -->
 
 9 billion modeled particle positions
 
 ## LM animation <!-- .slide: data-state="hide-head" -->
+<!-- .tags: pf -->
 
 <video height="700" controls>
     <source data-src="./vid/outputMap.mp4"
     type="video/mp4" />
 </video>
 
-
 ## Seasonal variations
+<!-- .tags: pf -->
 
 ![one site](img/month_mean.WI2410100_2.png) <!-- .element: style="filter: invert(100%)" -->
 
-
 ## Seasonal variations
+<!-- .tags: pf -->
 
 ![all sites](img/month_mean2.png) <!-- .element: style="filter: invert(100%)" -->
 
-
 ## Seasonal patterns / Improved model
+<!-- .tags: pf -->
 
  - Seasonal patterns in nearshore currents influence
    intake exposure levels.
@@ -244,6 +235,7 @@ Complexity more easily represented in ABMs.
 {% if not OW_ONLY %}
 # Drifters
 <!-- .slide: data-state="img-left" -->
+<!-- .tags: pf -->
 
 ![Drifter internals](./img/20180524_114738c.jpg) <!-- .element: height="500" -->
 
@@ -252,18 +244,18 @@ Complexity more easily represented in ABMs.
  - Validate hydrodynamic models.
  - Measure at scales model data is unavailable.
 
-
 ## Drifters - components
+<!-- .tags: pf -->
 
 ![Drifter internals](./img/drifterside.png) <!-- .element: width="80%" -->
 
-
 ## Drifters - components
+<!-- .tags: pf -->
 
 ![Drifter internals](./img/drifterotherside.png) <!-- .element: width="80%" -->
 
-
 ## Low cost
+<!-- .tags: pf -->
 
  - Unit cost < $250.
    - cf. a Cyanoscope for $500+
@@ -271,7 +263,6 @@ Complexity more easily represented in ABMs.
  - Outreach opportunity for schools etc.
    - Have students assemble units
    - Deploy units from kayaks etc.
-
 
 ## Application
 <!-- .slide: data-state="img-right" -->
@@ -285,8 +276,8 @@ Complexity more easily represented in ABMs.
  - Local site specificity gives managers actionable
    information.
 
-
 ## Software components
+<!-- .tags: pf -->
 
  - Software on the drifters, in MicroPython, which
    collects and transmits data.
@@ -296,8 +287,8 @@ Complexity more easily represented in ABMs.
  - "DrifterOS" - software to download data and
    update software wirelessly.
 
-
 ## Internet of things
+<!-- .tags: pf -->
 
  - AES encrypted transmission.
  - Units relay messages to increase range.
@@ -306,6 +297,7 @@ Complexity more easily represented in ABMs.
 ![Collecting data from stream network](./img/streamnw.svg) <!-- .element width="80%" -->
 
 ## Visualization
+<!-- .tags: pf -->
 
  - Web based
  - Observe complex patterns
@@ -313,6 +305,7 @@ Complexity more easily represented in ABMs.
  - View relationships between drifters
 
 ## PP animation <!-- .slide: data-state="hide-head" -->
+<!-- .tags: pf -->
 
 <video height="700" controls>
     <source data-src="./vid/0001-1262.mkv" type="video/mp4" />
