@@ -9,13 +9,15 @@ Brown.TerryN@epa.gov
  - Processing / management of large datasets from 
    sensors and simulations
  - Visualization of large, complex datasets  
- - Getting from data to understanding for managers
+ - Getting from data to understanding for resource managers
 
 
 
 # SNNM <!-- .tags: pf -->
 
 Simple Nearshore Nutrient Model
+
+James Pauer and Tom Hollenhorst
 
 Modeling nutrient movement in the nearshore as a
 precursor to Harmful Algal Blooms (HABs).
@@ -36,11 +38,21 @@ precursor to Harmful Algal Blooms (HABs).
    collaboration.
  - Complex patterns more easily observed.
 
+<video height="500" controls data-autoplay>
+    <source data-src="./vid/0001-0609.mkv"
+    type="video/mp4" />
+</video>
+
 
 
 # Data indexing / mining <!-- .tags: pf -->
 
 Turning 20 years of data into a 20 year data set.
+
+ - Data spider - search by file type, column
+ names, dates, number of records, spatial
+ footprint.
+ - Data index, tags, and full text searching.
 
 [Data inventory
 interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
@@ -76,7 +88,7 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 
 ## Grid cells <!-- .slide: data-state="hide-head" -->
 <!-- .tags: pf -->
-<video height="600" controls>
+<video height="600" controls data-autoplay>
     <source data-src="./vid/noaacells.mp4"
     type="video/mp4" />
 </video>
@@ -93,7 +105,7 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 ## LM animation <!-- .slide: data-state="hide-head" -->
 <!-- .tags: pf -->
 
-<video height="700" controls>
+<video height="700" controls data-autoplay>
     <source data-src="./vid/outputMap.mp4"
     type="video/mp4" />
 </video>
@@ -129,6 +141,8 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 <!-- .tags: pf -->
 
 ![Drifter internals](./img/20180524_114738c.jpg) <!-- .element: height="500" -->
+
+Tom Hollenhorst and Jim Berrill
 
  - Map currents, conductivity, and temperature.
  - Low cost, deploy en masse.
@@ -193,7 +207,7 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 ## PP animation <!-- .slide: data-state="hide-head" -->
 <!-- .tags: pf -->
 
-<video height="700" controls>
+<video height="700" controls data-autoplay>
     <source data-src="./vid/0001-1262.mkv" type="video/mp4" />
 </video>
 
