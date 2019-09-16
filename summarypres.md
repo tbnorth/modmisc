@@ -214,3 +214,12 @@ Tom Hollenhorst and Jim Berrill
 <!--
 vim:tw=50
 --->
+
+
+
+# Themes <!-- .tags: pf -->
+
+ - Processing / management of large datasets from 
+   sensors and simulations
+ - Visualization of large, complex datasets  
+ - Getting from data to understanding for resource managers

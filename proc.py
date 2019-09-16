@@ -6,9 +6,14 @@ from jinja2 import Template
 
 in_, out = sys.argv[1:]
 
-tags_required = set(['pf'])
-tags_exclude = set()
-context = {'SUMMARY': True, 'OW_ONLY': False}
+if True:
+    tags_required = set(['pf'])
+    tags_exclude = set()
+    context = {'SUMMARY': True, 'OW_ONLY': False}
+else:
+    tags_required = set()
+    tags_exclude = set()
+    context = {'SUMMARY': False, 'OW_ONLY': True}
 
 Slide = SimpleNamespace
 tags_re = re.compile(r"<!--.*\.tags:\s*([A-Za-z_][-, A-Za-z_0-9]*)")
