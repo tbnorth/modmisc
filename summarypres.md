@@ -23,15 +23,6 @@ Modeling nutrient movement in the nearshore as a
 precursor to Harmful Algal Blooms (HABs).
 
 
-## Simple == Open <!-- .tags: pf -->
-
- - Try to avoid calibration
- - Some models have dozens of calibration
-   variables and minimal observations.
- - Prefer direct use of real world observations
- - Minimize complexity
-
-
 ## Visualization <!-- .tags: pf -->
 
  - Web based, *potentially* better for
@@ -45,21 +36,7 @@ precursor to Harmful Algal Blooms (HABs).
 
 
 
-# Data indexing / mining <!-- .tags: pf -->
-
-Turning 20 years of data into a 20 year data set.
-
- - Data spider - search by file type, column
- names, dates, number of records, spatial
- footprint.
- - Data index, tags, and full text searching.
-
-[Data inventory
-interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
-
-
-
-# OW working on bromide from power stations <!-- .tags: pf -->
+# Modeling transfer from outfalls to intakes in the Great Lakes
 
  - Work for Office of Water, currently rule making
    for bromide release from coal fired power plants.
@@ -70,6 +47,23 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
    carcinogens.
 
 
+## Nearshore flow
+
+ - There is a nearshore flow or "stream" in the
+   Great Lakes that retains inputs.
+ - Mixing with the full lake volume is delayed.
+ - Contaminants entering the Great Lakes linger in
+   the shallower nearshore.
+   - Dilution is more limited.
+   - The nearshore is where people interact with
+     the lakes.
+
+
+## Nearshore flow <!-- .slide: data-state="hide-head" -->
+
+![Ontario](./img/LakeOntarioArial.png)
+
+
 ## Agent based modeling <!-- .tags: pf -->
 
  - Able to represent details of complex systems.
@@ -78,12 +72,15 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
    approach.
 
 
-## Model structure, grid data <!-- .tags: pf -->
+## EPA High End Scientific Computing (HESC)
 
- - Run for 12 years, 2004-2015, analyze the last
-   ten.
- - Bromide very persistent, particles given a two year
-   life-span.
+ - 128 nodes (computers) each with 256 Gb RAM and
+   32 cores.
+ - Large memory node, 1.5 Tb RAM.
+ - 4 GPU nodes
+ - 1.4 Pb, or 1,400 Tb drive
+ - EMVL group provides support, but quite open to
+   direct use.
 
 
 ## Grid cells <!-- .slide: data-state="hide-head" -->
@@ -94,14 +91,6 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
 </video>
 
 
-## Intake
-<!-- .tags: pf -->
- 
-![Intake](./img/partintake.png) <!-- .element: style="filter: invert(100%)" width="600" -->
-
-9 billion modeled particle positions
-
-
 ## LM animation <!-- .slide: data-state="hide-head" -->
 <!-- .tags: pf -->
 
@@ -109,30 +98,6 @@ interface](http://v2626umcth926.rtord.epa.gov/data_inventory/)
     <source data-src="./vid/0001-1000.mkv"
     type="video/mp4" />
 </video>
-
-
-## Seasonal variations
-<!-- .tags: pf -->
-
-![one site](img/month_mean.WI2410100_2.png) <!-- .element: style="filter: invert(100%)" -->
-
-
-## Seasonal variations
-<!-- .tags: pf -->
-
-![all sites](img/month_mean2.png) <!-- .element: style="filter: invert(100%)" -->
-
-
-## Seasonal patterns / Improved model
-<!-- .tags: pf -->
-
- - Seasonal patterns in nearshore currents influence
-   intake exposure levels.
- - Office of Water originally using
-   <br/>"people within 50 km of plant".
- - Seasonal effects and temperature influence exposure pathways.
- - OW sees this as a basis for further work in the Great Lakes.
- 
 
 
 
@@ -162,17 +127,6 @@ Tom Hollenhorst and Jim Berrill
 ![Drifter internals](./img/drifterotherside.png) <!-- .element: width="80%" -->
 
 
-## Low cost
-<!-- .tags: pf -->
-
- - Unit cost < $250.
-   - cf. a Cyanoscope for $500+
- - Affordable for smaller communities.
- - Outreach opportunity for schools etc.
-   - Have students assemble units
-   - Deploy units from kayaks etc.
-
-
 ## Software components
 <!-- .tags: pf -->
 
@@ -183,16 +137,6 @@ Tom Hollenhorst and Jim Berrill
  - Post-processing and visualisation software.
  - "DrifterOS" - software to download data and
    update software wirelessly.
-
-
-## Internet of things
-<!-- .tags: pf -->
-
- - AES encrypted transmission.
- - Units relay messages to increase range.
- - Stream network monitoring.
-
-![Collecting data from stream network](./img/streamnw.svg) <!-- .element width="80%" -->
 
 
 ## Visualization

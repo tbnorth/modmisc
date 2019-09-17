@@ -7,7 +7,7 @@ from jinja2 import Template
 in_, out = sys.argv[1:]
 
 if True:
-    tags_required = set(['pf'])
+    tags_required = set()
     tags_exclude = set()
     context = {'SUMMARY': True, 'OW_ONLY': False}
 else:
