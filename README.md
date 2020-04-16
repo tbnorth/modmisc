@@ -1,7 +1,7 @@
 # summarypres
 
 This repository houses a presentation which you can
-[view online](https://tbnorth.github.io/summarypres/).
+[view online](https://tbnorth.github.io/modmisc/).
 
 NOTE: the presentation uses [reveal.js](http://lab.hakim.se/reveal-js/),
 the HTML slide show framework.  The unchanged parts of reveal.js are
